@@ -17,29 +17,47 @@
 
 /* Styles for the HTML Body element */
 
-body {
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1d3557ff;
+  color: #f1faeeff;
+  font-size: 1.2rem;
+  line-height: 1.6;
   /* Add a background colour of #1d3557ff */
 }
 
 
 /* Then move onto the header styles */
 
-header {
+header { 
+  background-color: #457b9dff;
+  color: #a8dadcff;
+         margin: 0rem;
+         padding: 1rem;
+
   /* Set the text colour, margins and padding */
 }
 
 header .site-title {
+  margin: 1rem 0;
+  font-weight: 100;
+  text-transform: lowercase;
+  font-size: 1.9rem;
+  letter-spacing: 0.4rem;
+  
   /* Add some cool text styles to the site title */
   /* Experiment with the font-size, font-weight, text-transform, letter-spacing */
 }
 
 header nav {
+margin: 5rem 0;
   /* Experiment with margin until you find spacing
    * that you like
   */
 }
 
 header nav ul {
+  list-style: none;
   /* Remove the list styles */
   /* Experiment with list-style property
    * to see what it does and how to remove

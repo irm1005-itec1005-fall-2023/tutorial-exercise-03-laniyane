@@ -9,13 +9,23 @@
 main .light-box {
   margin: 2rem 0;
   padding: 1rem;
+  background-color: #f5f5f5; 
+  border-radius: 0.5rem;
+  color: #1d3557ff;
   /* 1. Add a background colour of #f5f5f5 */
   /* 2. Add a border radius of 0.5rem */
   /* 3. Add a text color of #1d3557ff */
 }
 
 /* Styles for the dark box */
-
+main .dark-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #242121;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+  
+}
 /*
 
 Create a class called dark-box and add the following styles to it
@@ -27,6 +37,10 @@ Create a class called dark-box and add the following styles to it
   6. Add a text color of #f5f5f5
 
 */
+main .dark-box a {
+  color: #e63946ff;
+  
+}
 
 /* Styles for the link in the dark box */
 
@@ -51,7 +65,13 @@ Create a class called red-box and add the following styles to it
   10. Add a text color of #f5f5f5
 
 */
-
+main .red-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #e63946ff;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 /* Styles for the link in the dark box */
 
 /*
@@ -61,6 +81,9 @@ Create a selector that targets the link in the dark box and add the following st
   11. Add a text color of #090909
 
 */
+main .red-box a {
+  color: #090909;
+}
 
 /* Styles for the blux box */
 
@@ -76,18 +99,31 @@ Create a class called blue-box and add the following styles to it
   14. Add a text color of #f5f5f5
 
 */
+main .blue-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #457b9dff;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
 */
-
+main .blue-box li:nth-child(odd) {
+  background-color: #ebe5e5;
+  color: #3eac96;
+}
 /* 15. enter your code here */
 
 /* Use psuedo classes to give the last list item (last child) within a list in main a completely different background colour
 */
 
 /* 16. enter your code here */
-
+main .blue-box li:last-child {
+  background-color: #e63946ff;
+  color: #8b5484;
+}
 /*
  * DONT MODIFY THE CODE
  * BELOW THIS LINE
