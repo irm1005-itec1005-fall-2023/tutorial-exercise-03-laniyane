@@ -50,7 +50,7 @@ header .site-title {
 }
 
 header nav {
-margin: 5rem 0;
+margin: 2rem 0;
   /* Experiment with margin until you find spacing
    * that you like
   */
@@ -66,12 +66,14 @@ header nav ul {
   /* You may also have tweak the margin and padding */
 }
 
-header a {
+header a { color: azure;
+  text-decoration: none;
   /* Set the text colour and remove the underline */
   /* Make the links white (or any cool colour */
 }
 
 header a:hover {
+  text-decoration: underline;
   /* Add an underline to the links when you hover over them */
 }
 
@@ -89,8 +91,24 @@ header a:hover {
  */
 
 main > section {
+  margin: 0rem 0 1rem 0;
+  padding: 1rem; 
+  background-color: #457b9dff;
+  border-radius: 1rem;
   /* Set the margins, padding and background colour */
   /* Set the border radius to give it rounded corners */
+}
+main section.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main section.menu ul li {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #e6bcbf;
 }
 
 /* This fancy code removes the bottom margin from the last section */
