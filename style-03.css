@@ -120,18 +120,31 @@ main > section:last-child {
 
 /* Now let's setup the Hero section in main styles */
 main section.hero {
+  padding: 8rem 1rem 1rem 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
   /* Start by setting the padding */
   /* Set the background colour */
   /* Set the border radius to give it rounded corners */
 }
 
 main section.hero h1 {
+  padding: 0 3rem;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
   /* Set the font size, margins and text colour */
   /* Experiment with letter-spacing to see what it does */
   /* Google how to align text in the center */
 }
 
 main section.hero .secondary-heading {
+  padding: 4rem 5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
   /* Set the font size, margins and text colour */
   /* Experiment with letter-spacing to see what it does */
   /* Google how to align text in the center */
@@ -153,10 +166,16 @@ main section.hero img {
 /* Next up is the second section, which is our menu styles */
 
 main section.menu {
+  padding: 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
   /* Set the padding, background colour and border radius */
 }
 
 main section.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   /* Remove the list styles */
   /* Experiment with list-style property
    * to see what it does and how to remove
@@ -166,6 +185,10 @@ main section.menu ul {
 }
 
 main section.menu ul li {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #e6bcbf;
   /* Set the padding, margin-top and border radius */
   /* Set the background colour */
 }
@@ -178,13 +201,18 @@ main section.menu ul li {
  * background-color: #a8dadcff;
  */
 
-
+ main section.menu ul li:nth-child(2n) {
+  background-color: #a8dadcff;
+}
 
 /* TESTIMONIAL SECTION STYLES */
 
 /* Almost done! The last section is our testimonial styles */
 
 main section.testimonial {
+  padding: 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
   /* Set the padding and background colour #f1faeeff */
   /* Set the border radius */
 }
@@ -200,11 +228,21 @@ main section.testimonial {
 
 */
 
+main section.testimonials h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
 main section.testimonials img {
   width: 100%;
   max-width: 100%;
-  /* Put a border radius on just the top of the image */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
+  /* Put a border radius on just the top of the image */
+
 
 /*
   Create a css selector that targets the blockquote element
@@ -221,7 +259,17 @@ main section.testimonials img {
   - Put a border radius on just the bottom of the blockquote
 
 */
-
+main section.testimonials blockquote {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  background-color: #457b9dff;
+  color: #ffffff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
 /* AND THAT'S IT! YOU ARE DONE. CONGRATULATIONS. POST YOUR LINK! */
 
 
